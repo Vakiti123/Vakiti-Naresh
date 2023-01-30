@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="icon" href="./icons/logo1.png" type="image/icon type">
+    <link rel="stylesheet" href="sellers.css">
+</head>
+<body>
+    
+
+    <section class="register-page">      
+          
+        <div class="left">
+            <img src="./images/sell.png" alt="">
+          <button class="shoppers-login-page">Go to Shoppers Login</button>
+        </div>
+      
+
+        <div class="right">        
+      
+          <form id="logincard" class="logincard">  
+            <p class="showData">Login and start shopping from your favourite brands. Refer a friend and save 50% OFF.</p>
+            <input type="email" placeholder="Login Email" class="email" id="email">
+            <input type="password" placeholder="Password" class="password" id="password">
+            <input type="password" placeholder="Password" class="re-enter-password" id="re-enter-password">
+            <input type="submit" value="Create Account" class="createAccount" id="submit-button">
+            <h3 class="sellers-login-page">Login</h3>
+
+          </form>        
+      
+        </div>      
+
+      </section>
+      
+     
+
+    <script>
+      
+    document.querySelector(".shoppers-login-page").addEventListener("click", () => { 
+      location.href = "shoppers-login.html"
+    })
+
+    document.querySelector(".sellers-login-page").addEventListener("click", () => {
+      location.href = "sellers-login.html"
+    })
+
+
+
+    
+let logindetails = [] 
+
+
+function displayData(){
+  if(localStorage.getItem('logindetails')){
+        logindetails = JSON.parse(localStorage.getItem('logindetails'))
+    }
+}
+
+
+  document.getElementById('logincard').addEventListener('submit', function() {
+
+    let UniqueID = 'info' + Math.floor(Math.random()*1000)
+      
+    let data ={
+       email: document.getElementById('email').value,
+       password: document.getElementById('password').value,
+       password1: document.getElementById('re-enter-password').value
+
+    }
+
+    if(  data.email.length > 0 && data.password.length > 0 && data.password1.length > 0  && data.password == data.password1  ){
+      addNoteToLocalStorage(data, UniqueID)
+    }
+    else{ alert("Please fill all the details.") }
+   
+
+    });
+
+    
+function addNoteToLocalStorage(data, UniqueID){
+
+data = {...data, UniqueID}
+logindetails.push(data)
+
+localStorage.setItem('logindetails',JSON.stringify(logindetails))
+
+}
+
+
+   displayData()
+
+
+
+
+
+    </script>
+
+</body>
+</html>

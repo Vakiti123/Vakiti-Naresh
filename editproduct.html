@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Product</title>
+    <link rel="icon" href="./icons/logo1.png" type="image/icon type">
+    <link rel="stylesheet" href="addnewproduct.css">
+</head>
+<body>
+
+    
+<header>
+    <div class="left">
+        <img src="./icons/logo.png" alt="">
+        <h1>STAR SHOPPER</h1>
+    </div>
+    <div class="right">
+        <img src="./icons/kart.png" alt="">
+        <img src="./icons/user.png" alt="">
+        <a href="sellers-login.html"> <button> Logout</button></a>
+    </div>
+</header>
+
+
+
+
+<main id="main">
+
+    <div class="left">
+
+        <form id="form">
+           <input type="text" placeholder="Product Title"  class="title" onkeyup="titleText()" > <br>
+           <input type="text" placeholder="Product Description" class="description" > <br>
+           <input type="text" placeholder="Product Price" class="price" onkeyup="titleText()" > 
+           <input type="text" placeholder="Product Discount" class="discount" onkeyup="titleText()"> <br>
+           <input type="text" placeholder="Product Category" class="category" > <br>
+           <input type="text" placeholder="Product Image URL" class="imageurl"  onkeyup="titleText()"> <br>            
+            <input type="submit" style="color: blue; background-color: #FDD835;" class="addProduct" value="Update Product">
+        </form>
+
+    </div>
+    
+
+    <div class="right">
+        <h1>LIVE PREVIEW</h1>
+        <p>This is how, your customers will see your product on website.</p>
+
+        <div class="item">
+            <img src="https://picsum.photos/150" alt="" class="imagelive">
+            <h2 class="titlelive">Vegetable</h2>
+            <h3 class="pricelive" >₹199/-  </h3>  <span class="discountlive">(10% Off)</span> <br>            
+           <button>Add to Cart</button>
+        </div>
+
+
+    </div>
+
+
+</main>
+
+
+
+
+<script src="addnewproduct.js"></script>    
+</body>
+</html>

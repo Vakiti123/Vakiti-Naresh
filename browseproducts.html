@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Products</title>
+    <link rel="icon" href="./icons/logo1.png" type="image/icon type">
+    <link rel="stylesheet" href="browseproducts.css">
+</head>
+<body>
+
+    <menu class="menuItems">
+      <div class="search">
+        <input type="search" placeholder="Search for items" id="searchinput">
+      </div>
+
+      <div class="price">
+    <p>Price Less Than: <input type="text" class="pricelessthan"></p>
+    <p>Price Greater Than: <input type="text" class="pricegreaterthan" onkeyup="PriceFilter()"></p>
+      </div>
+
+      <div class="sort">
+        <h3>Sort By:</h3>
+
+        <select name="Select Item"  id="SelectItem">
+            <option value="price" >Price</option>
+            <option value="discount">Discount</option>
+            <option value="atoz" >A to Z</option>
+            <option value="ztoa">Z to A</option>
+        </select>
+      </div>
+
+
+      <div class="category">
+        <h3>Category</h3>
+
+        <ul>
+          <li class="grocery" value="Sports">Sports</li>
+          <li class="bags">Foot Wear</li>
+          <li class="electronics">Electronics</li>
+          <li class="shirts">Shirts</li>
+          <li class="pants">Pants</li>
+          <li class="officesupplies">Office Supplies</li>
+        </ul>
+      </div>
+
+      <a href="yourcart.html"> <button>Go To Cart</button> </a>
+
+
+    </menu>
+    
+
+    <main class="mainItems">
+        <h1>SELECT A PRODUCT AND ADD TO CART</h1>
+
+        <div class="products">
+
+          <div class="result">
+               
+              
+          </div>              
+
+           
+        </div>
+
+    </main>
+    
+    <script async src="browseproducts.js"></script>
+</body>
+</html>

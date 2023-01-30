@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    display: grid;
+    grid-template-columns: 25% auto;
+    height: 100vh;
+}
+input{
+    height: 35px;
+    width: 600px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: white;
+    font-size: 20px;
+}
+.menuItems{
+    border-right: 5px solid lightgray;
+    overflow-x: hidden;
+}
+.menuItems .search{
+    height: 100px;
+    border-bottom:5px solid lightgrey;
+}
+.menuItems .search input{
+    margin-left: 1rem;
+    background-color: #B3E5FC;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    margin-top: 1rem;
+    padding:0 1rem;
+}
+.menuItems .price{
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.menuItems .price p{
+    display: inline;
+    margin-left: 2rem;
+}
+.menuItems .price p input{
+    display: inline;
+    width: 100px;
+    margin-top: 2rem;
+    border-bottom: 2px solid black ;
+    border-bottom-style: dashed;
+    height: 20px;     
+    font-size: 18px;  
+}
+.menuItems .sort{
+    margin-top: 1rem;
+}
+.menuItems .sort h3{
+ margin-left: 2rem;
+ font-size: 20px;
+ display: inline;
+}
+.menuItems .sort select{
+    height: 30px;
+    width: 200px;
+    background-color: #B3E5FC;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    border-radius: 10px;
+    color: #263238;
+}
+.menuItems .category h3{
+    margin: 1rem 0 0 2rem;
+    font-size: 20px;
+}
+.menuItems .category ul{
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 5px solid lightgrey;
+    
+}
+.menuItems .category ul li{
+    list-style: none;
+    text-align: center;
+    background-color: lightcoral;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    height: 40px;
+    width: auto;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.menuItems .category .bags{
+    background-color: lightsalmon;
+}
+.menuItems .category .electronics{
+    background-color: lightblue;
+}
+.menuItems .category .shirts{
+    background-color: lightslategray;
+}
+.menuItems .category .pants{
+    background-color: lightseagreen;
+}
+.menuItems .category .officesupplies{
+    background-color: lightgreen;
+}
+.menuItems button{
+    margin: 2rem 0 0 1rem;
+    font-size: 20px;
+    background-color: #3D5AFE;
+    font-weight: 600;
+    height: 50px;
+    width: 300px;
+}
+
+
+
+
+
+/*    main content styling      */
+
+
+
+
+
+
+
+
+
+.mainItems{
+    overflow-x: hidden;
+}
+.mainItems h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.mainItems .products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1rem 3rem;
+}
+.searchEngine{
+    text-align: center;
+    margin-top: 5rem;
+}
+h3{
+    font-size: 1.8rem;
+    color: black;
+}
+.result{
+    margin-top: 2rem;
+    margin: 2rem;
+    border-radius: 20px;
+    width: 160px;
+    height: auto;
+    background-color: white;
+}
+img{
+    margin-top: 1rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+h3{
+    font-size: 20px;
+    margin-left: 0.8rem;
+}
+h4{
+    width: 150px;
+    margin-left: 0.6rem;
+    color: #3D5AFE;
+    margin-top: 0.3rem;
+}
+span{
+    font-size: 12px;
+     margin-bottom: 1rem;
+     margin-left: 0.5rem;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #3D5AFE;
+    color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+}
+
+
+
+
+
+

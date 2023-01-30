@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Andika;
+}
+button{
+    cursor: pointer;
+}
+img{
+    pointer-events: none;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #FDD835;
+    padding-bottom: 0.5rem;
+}
+header .left{
+    display: flex;
+    padding-left: 3rem;
+}
+header .left img{
+    height: 55px;
+    padding-top: 0.5rem;
+}
+header .left h1{
+    padding-left: 1rem;
+    font-size: 35px;
+    font-weight: 900;
+}
+header .right{
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+header .right img{
+    height: 50px;
+    margin: 0.5rem;
+    pointer-events: none;    
+}
+header .right button{
+    margin: 0.5rem 5rem 0 1rem;    
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    font-size: 20px;
+    color: #304FFE;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+/*    main styling       */
+
+main{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+main .left {
+    border-right: 5px solid lightgrey;
+    height: 88vh;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+main .left h1{
+    margin: 1rem 0 0 2rem;
+    font-size: 25px;
+}
+main .left canvas{
+    margin-top: 1rem;
+}
+main .left img{
+    height: 120px;
+}
+
+
+
+/*     section right styling       */
+
+
+
+
+main .right .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 5rem;
+}
+main .right .top button{
+    width: 250px;
+    height: 40px;
+    background-color: #304FFE;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+}
+main .right .bottom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 3rem;
+    margin-bottom: 2rem;
+    height: 72vh;
+    overflow-x: hidden;
+}
+
+
+
+/*     product styling          */
+
+
+
+
+
+
+
+main .right .bottom .item{
+    margin-top: 2rem;
+}
+.productImage{
+    border-radius: 20px;
+    height: 150px;
+}
+.productTitle{
+    font-size: 20px;
+    margin-left: 0.5rem;
+}
+.productPrice{
+    font-size: 20px;
+    color: #304FFE;
+    margin-left: 0.5rem;
+}
+.productDiscount{
+    font-size: 12px;
+    margin-left: 1rem;
+}
+.producteditButton{
+    height: 30px;
+    width: 60px;
+    background-color: #304FFE;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-left: 0.5rem;
+}
+.productdeleteButton{
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

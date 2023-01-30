@@ -1,0 +1,201 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-page2{
+    display: flex;
+    height: 100vh;
+    font-family: Andika;
+  }
+  .login-page2 img{
+    height: 500px;
+  }
+  .login-page2 .left{
+    background-color: #0D47A1;  
+  }
+  .login-page2 .right{
+    background-color: #0D47A1;
+    margin-left: 0.2rem;
+    padding-left: 2rem;
+  }
+  button{
+    width: 300px;
+    height:50px;
+    margin-left: 8rem;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .login-page2 .left button{
+    background-color: white;
+    color: #0D47A1;
+    border: none;
+    margin-left: 12rem;
+  }
+  .login-page2 .right .logincard{
+    margin: 5rem 5rem 5rem 10rem;
+    padding: 2rem;
+    background-color: #B3E5FC;
+    border-radius: 20px;
+    height: 70vh;
+  }
+  .login-page2 .right .logincard p{
+    color: white;
+  }
+  .login-page2 .right .logincard .email{
+    display: block;
+    margin-top: 2rem;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 2rem;
+    outline: none;
+  }
+  
+  .login-page2 .right .logincard .password{
+    display: block;
+    margin-top: 2rem;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 2rem;
+    outline: none;
+  }
+  .login-page2 .right .logincard .seller-login-btn{
+    background-color: white;
+    color: #0D47A1;
+    border: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  .login-page2 .right .logincard h3{
+    margin: 3rem 0 0 5rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  .login-page2 .right .logincard h3:hover{
+    color: orangered;
+  }
+  
+  
+  
+  
+  /*           section three       */
+  
+  
+  .register-page{
+    display: flex;
+    height: 100vh;
+    font-family: Andika;
+  }
+  .register-page img{
+    height: 500px;
+  }
+  .register-page .left{
+    background-color: #0D47A1;  
+  }
+  .register-page .right{
+    background-color: #0D47A1;
+    margin-left: 0.2rem;
+    padding-left: 2rem;
+  }
+  button{
+    width: 300px;
+    height:50px;
+    margin-left: 12rem;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .register-page .left button{
+    background-color: white;
+    color: #0D47A1;
+    border: none;
+  }
+  .register-page .right .logincard{
+    margin: 5rem 5rem 5rem 10rem;
+    padding: 2rem;
+    background-color: #B3E5FC;
+    border-radius: 20px;
+    height: 70vh;
+  }
+  .register-page .right .logincard p{
+    color: white;
+  }
+  .register-page .right .logincard .email{
+    display: block;
+    margin-top: 2rem;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 2rem;
+    outline: none;
+  }
+  
+  .register-page .right .logincard .password{
+    display: block;
+    margin-top: 2rem;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 2rem;
+    outline: none;
+  }
+  .register-page .right .logincard .re-enter-password{
+    display: block;
+    margin-top: 2rem;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 2rem;
+    outline: none;
+  }
+  .register-page .right .logincard .createAccount{
+    background-color: white;
+    color: #0D47A1;
+    border: none;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  .register-page .right .logincard h3{
+    margin: 3rem 0 0 5rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+  }
+  .register-page .right .logincard h3:hover{
+    color: orangered;
+  }
+  
+  
+  .register-page .right .logincard h3{
+    margin: 1rem 0 0 8rem;
+    color: white;
+    font-weight: 550;
+  }
+  
+  
